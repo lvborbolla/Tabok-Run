@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "0159b297-ff6d-44bc-955c-418f05b4b2c2",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "7b50f0db-d287-4731-a3be-bc899d6f587c",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 4,
+  "animSpeed": 63,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_66",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.1,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "f5289854-8fa9-4bec-a0ac-49ea6f9ccb98"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 47
+        },
+        "__comment": false
+      },
+      "id": "29012352-eb30-469e-bfda-9e7700928c24"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -20
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "3f205978-27b6-47e1-b273-029008d263cd"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "852f98d8-593a-4acc-8d9e-43d49f142675"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 23,
+  "_index": 5
+}

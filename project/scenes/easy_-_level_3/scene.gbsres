@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "d3733cd8-d5e3-4412-8c41-447868400c16",
+  "_index": 6,
+  "name": "Easy - Level 3",
+  "backgroundId": "786ab5d0-6c3b-49d5-8b98-8b20e0d91e55",
+  "tilesetId": "",
+  "width": 20,
+  "height": 48,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!0044+0f10+0028+0f6+00e+0f!004+0f!008+0f7+004+0f!008+0f!004+0f7+008+0f6+0044+0f4+0010+0f4+0010+0f4+00d8+0f4+0010+0f!002+0f!009+0f2+005+0f!002+0f!005+0f2+002+0f2+005+0f4+005+0f2+00a+0f2+0012+0f2+00c3+0f2+004+0f2+00c+0f3+002+0f3+00c+0f3+002+0f3+006+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 1032.845403475374,
+  "y": 155.26130557295534,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "19531755-2100-4c2f-940c-2f0da23bd7a6"
+      },
+      "id": "4fa4cce0-5861-4192-bf80-ee1b9feabe80"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "e8d882b1-9520-4d9c-a927-6d9c926ae0b5"
+}

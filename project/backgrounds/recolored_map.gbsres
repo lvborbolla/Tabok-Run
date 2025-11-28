@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "35175cb3-cd7e-4e39-b3c6-09c1b5a2533a",
+  "name": "recolored_map",
+  "symbol": "bg_recolored_map",
+  "width": 20,
+  "height": 48,
+  "imageWidth": 160,
+  "imageHeight": 384,
+  "filename": "recolored_map.png",
+  "tileColors": "",
+  "autoColor": false
+}

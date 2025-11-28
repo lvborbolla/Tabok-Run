@@ -1,0 +1,178 @@
+{
+  "_resourceType": "scene",
+  "id": "9d92033f-6e3a-4fb3-a2de-524a879bacf7",
+  "_index": 1,
+  "name": "Level 1 - E - Finished",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 496,
+  "y": 128,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "51605305-9427-4d85-88a8-811d8326fff8"
+      },
+      "id": "d53d2284-f036-4a13-aece-c437272e983c"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1daad112-3077-453e-a358-1475081b3d6d"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "10",
+        "items": 3,
+        "option1": "Next level",
+        "option2": "Retry",
+        "option3": "Quit",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue"
+      },
+      "id": "c8b94a89-becb-4ddb-bc37-67d7e03d0f99"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "57eb52ec-7c75-4fa4-ba1d-3cd1401698c1",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 47
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "7734565a-66db-483f-99e8-83961fba1be5"
+          }
+        ],
+        "false": []
+      },
+      "id": "8a5a995a-df8b-46ac-8a1a-21404e486f78"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "075a1a4e-70c3-4c48-a967-c4602d460201",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a510a09b-4e7a-4472-9566-70700dd8a058"
+          }
+        ],
+        "false": []
+      },
+      "id": "540ada0c-c42e-4dbb-b6e3-b2a0394ad37a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ccbe2bc7-a596-4884-9bf1-cabb84033113",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ab13dc7d-9d92-4a0a-a2d5-80a123ec8626"
+          }
+        ],
+        "false": []
+      },
+      "id": "d6999a0d-7d07-425b-b5bc-67a2a6ed313f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

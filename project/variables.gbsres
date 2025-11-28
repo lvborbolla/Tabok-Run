@@ -1,0 +1,260 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "player_on_log",
+      "symbol": "var_player_on_log_0"
+    },
+    {
+      "id": "1",
+      "name": "log1_x",
+      "symbol": "var_log1_x_0"
+    },
+    {
+      "id": "2",
+      "name": "log2_y",
+      "symbol": "var_log2_y"
+    },
+    {
+      "id": "3",
+      "name": "player_y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "4",
+      "name": "player_x",
+      "symbol": "var_player_x"
+    },
+    {
+      "id": "5",
+      "name": "is_spawn_log",
+      "symbol": "var_is_spawn_log"
+    },
+    {
+      "id": "6",
+      "name": "Player_Pos_X",
+      "symbol": "var_player_pos_x"
+    },
+    {
+      "id": "7",
+      "name": "Player_Pos_Y",
+      "symbol": "var_player_pos_y"
+    },
+    {
+      "id": "8",
+      "name": "LogMov",
+      "symbol": "var_logmov"
+    },
+    {
+      "id": "9",
+      "name": "No_Log",
+      "symbol": "var_no_log"
+    },
+    {
+      "id": "10",
+      "name": "Level Finished",
+      "symbol": "var_level_finished"
+    },
+    {
+      "id": "11",
+      "name": "New Game",
+      "symbol": "var_new_game"
+    },
+    {
+      "id": "12",
+      "name": "Difficulty",
+      "symbol": "var_difficulty"
+    },
+    {
+      "id": "13",
+      "name": "Level of Game",
+      "symbol": "var_level_of_game"
+    },
+    {
+      "id": "075a1a4e-70c3-4c48-a967-c4602d460201__L0",
+      "name": "VAR_PLAYER_START_X",
+      "symbol": "var_var_player_start_x_0"
+    },
+    {
+      "id": "075a1a4e-70c3-4c48-a967-c4602d460201__L1",
+      "name": "VAR_PLAYER_START_Y",
+      "symbol": "var_var_player_start_y"
+    },
+    {
+      "id": "49b33d7e-c5d7-4bc6-842c-3ce6a2cfbe52__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "06d769ab-22bf-4a98-8746-d7006b14923b__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x"
+    },
+    {
+      "id": "06d769ab-22bf-4a98-8746-d7006b14923b__L1",
+      "name": "log_y",
+      "symbol": "var_log_y"
+    },
+    {
+      "id": "274bd1fd-db99-4610-8f07-3f7f1b995aca__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_1"
+    },
+    {
+      "id": "274bd1fd-db99-4610-8f07-3f7f1b995aca__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_0"
+    },
+    {
+      "id": "73381114-63bb-4202-8581-9471782c7de6__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_2"
+    },
+    {
+      "id": "73381114-63bb-4202-8581-9471782c7de6__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_1"
+    },
+    {
+      "id": "087e79ad-c0ec-4460-b38a-b530a86e1f29__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "329c72ad-0880-4fcd-b91c-e9e9558ed136__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "5916975c-faf7-48e6-a234-20ff0b53e66f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "002e9165-3f6b-440c-996a-040d788b1874__L0",
+      "name": "Level Finished",
+      "symbol": "var_level_finished_0"
+    },
+    {
+      "id": "6136a47c-b249-49ae-8191-aa7f9b67916c__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_3"
+    },
+    {
+      "id": "6136a47c-b249-49ae-8191-aa7f9b67916c__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_2"
+    },
+    {
+      "id": "bd270adc-ac2c-418c-a4d9-fde9b66004c6__L0",
+      "name": "VAR_PLAYER_START_X",
+      "symbol": "var_var_player_start_x"
+    },
+    {
+      "id": "bd270adc-ac2c-418c-a4d9-fde9b66004c6__L1",
+      "name": "VAR_PLAYER_START_Y",
+      "symbol": "var_var_player_start_y_0"
+    },
+    {
+      "id": "7b68ad80-933a-4d45-b94f-f8d55c86b88e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "fce7ba70-ee13-4dbd-b585-365e680a36a7__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_4"
+    },
+    {
+      "id": "fce7ba70-ee13-4dbd-b585-365e680a36a7__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_3"
+    },
+    {
+      "id": "d3ef3f31-ad72-496f-bbc6-54ad10cc5cc6__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "3927c1fb-5a86-423e-aeb0-a75e2036fb2f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "85c1a562-2646-459a-8698-11ae4b719668__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "dba326e6-ff42-499e-81ec-a2205a1a8048__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_5"
+    },
+    {
+      "id": "dba326e6-ff42-499e-81ec-a2205a1a8048__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_4"
+    },
+    {
+      "id": "9f469933-8183-409f-a57c-6ec0843df6f1__L0",
+      "name": "VAR_PLAYER_START_X",
+      "symbol": "var_var_player_start_x_1"
+    },
+    {
+      "id": "9f469933-8183-409f-a57c-6ec0843df6f1__L1",
+      "name": "VAR_PLAYER_START_Y",
+      "symbol": "var_var_player_start_y_1"
+    },
+    {
+      "id": "ffbe1dbe-0c84-423d-8f51-443881ab2c76__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "f77101a1-e517-4447-87da-3dbd6e1c988f__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_6"
+    },
+    {
+      "id": "f77101a1-e517-4447-87da-3dbd6e1c988f__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_5"
+    },
+    {
+      "id": "017a9a1b-5020-4b81-b5f3-056add19eaee__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "be20dafa-6eed-4e49-91aa-040b6e5431b5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
+    },
+    {
+      "id": "52e60528-110b-4d12-adf0-6ddaad5cdf29__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "152c98e3-6685-4f0c-9bf9-b502faf55c73__L0",
+      "name": "log1_x",
+      "symbol": "var_log1_x_7"
+    },
+    {
+      "id": "152c98e3-6685-4f0c-9bf9-b502faf55c73__L1",
+      "name": "log_y",
+      "symbol": "var_log_y_6"
+    },
+    {
+      "id": "aa7294d1-c62e-4bd2-8fa1-b7e71ecfa9bd__L0",
+      "name": "Level Finished",
+      "symbol": "var_level_finished_1"
+    },
+    {
+      "id": "76ed28f1-915b-4a63-b6d9-c99d4a157d60__L0",
+      "name": "Level Finished",
+      "symbol": "var_level_finished_2"
+    }
+  ]
+}

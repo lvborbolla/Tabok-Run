@@ -1,0 +1,57 @@
+{
+  "_resourceType": "scene",
+  "id": "075a1a4e-70c3-4c48-a967-c4602d460201",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Easy - Level 1",
+  "symbol": "scene_1",
+  "x": 328,
+  "y": 104,
+  "width": 20,
+  "height": 48,
+  "backgroundId": "3a145c93-4405-48f8-b841-df1cc3f0cfaf",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "",
+    "",
+    "",
+    "default-bg-5",
+    "",
+    "",
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "e8d882b1-9520-4d9c-a927-6d9c926ae0b5",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "3e94de62-2290-46f4-958b-da2403ae0b37"
+      },
+      "id": "c2158a19-41cf-400d-9788-654d5b65fab0"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "9d2134ad-33c0-4543-a536-9ca5eddf60f8"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "6",
+        "vectorY": "7"
+      },
+      "id": "1aaa3dc9-f7db-46f3-a64b-c90a3044fb64"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!004+0f!0043+0fd+0014+0f4+0010+0f4+0028+0f4+0010+0f9+00b+0f9+0041+0fe+006+0fe+006+0f6+0043+0f6+00e+0f6+00c+0f5+00!0f4+00a+0fa+00c+0f6+0010+0f2+006d+0f8+004+0f10+004+0f8+00ce+0f2+004+0f2+00c+0f2+004+0f2+006+"
+}
